@@ -780,7 +780,9 @@ height: 87px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 16px;}
+   
+
+}
     .category-tipes{
         padding: 10px;
     }
@@ -1183,6 +1185,8 @@ color: #FFFFFF;
 footer{
     border-top: 2px solid #282828;
     padding: 73px 0;
+    background: #1E201F;
+
 }
 .logo-footer{
     width: 79px;
@@ -2815,4 +2819,13 @@ color: #FFFFFF;
 .more:hover{
     background: #d7ba43;
 
+}
+@media (max-width: 600px){
+    .magazine-content{
+      overflow: hidden ;
+    }
+    .best-projects {
+       
+        overflow: hidden;
+    }
 }
