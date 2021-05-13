@@ -2008,7 +2008,7 @@ max-width: 295px;
         -ms-flex-direction: column;
             flex-direction: column;
 }
-label {
+.wrapper > label {
     background: #262626;
     border: 1.5px solid #404140;
     -webkit-box-sizing: border-box;
@@ -2798,13 +2798,15 @@ color: #FFFFFF;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    
+        flex-wrap: wrap;
+
 }
+
 .upload-box{
     font-family: 'Mulish', sans-serif;
     width: 217px;
     height: 217px;
-    background: gray;
+    background: #282828;
     margin: 7px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2815,6 +2817,47 @@ color: #FFFFFF;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+}
+.image-upload{
+	    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-upload > input
+{
+    display: none;
+}
+.delete{
+	position: absolute;
+    right: 30px;
+    top: 16px;
+    cursor: pointer;
+}
+@media (max-width: 1000px){
+	.compare-content{
+		            justify-content: center;
+
+	}
+}
+
+.image-upload img
+{
+    cursor: pointer;
+	width: 34px;
+    height: 34px;
+}
+.image-upload > p{
+	
+font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+width: 108px;
+color: #FFFFFF;
+
 }
 .more:hover{
     background: #d7ba43;
