@@ -340,6 +340,7 @@ text-align: center;
    height: 100%;
    display: block;
 }
+
 .car-link::after{
     position: absolute;
     width: 100%;
@@ -868,6 +869,7 @@ text-align: center;
 justify-content: center;
 color: #282828;
 margin-top: 40px;
+transition: .1s;
 }
 @media (max-width: 1065px){
     .revwes > h2{
@@ -930,7 +932,11 @@ padding: 0 10px;
     bottom: 0;
     padding:  28px;
     z-index: 9999;    
-
+    opacity: 0;
+    transition: .2s ease-in;
+}
+.magazine-box:hover .inner-info{
+opacity: 1;
 }
 .inner-info > a{
     font-style: normal;
@@ -2313,4 +2319,8 @@ color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.more:hover{
+    background: #d7ba43;
+
 }
