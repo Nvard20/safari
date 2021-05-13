@@ -408,7 +408,12 @@ color: #1E201F;
     padding: 6px 22px;
     justify-content: space-between;
     width: 90%;
+    opacity: 0;
+    transition: all .1s ease-in-out;
+}
 
+.car-link:hover .title-name{
+    opacity: 1;
 }
 .names > h2{
     font-family: 'Mulish', sans-serif;
