@@ -2925,6 +2925,8 @@ margin-right:10px;
 
 }
 .owner-content{
+        margin-bottom: 45px;
+
     display:flex;
 }
 .left-content{
@@ -2932,10 +2934,18 @@ margin-right:10px;
 }
 .right-content{
     max-width: 687px;
+        width: 100%;
+    margin: 0 25px;
 }
 .box-about-own{
     background: #282828;
     padding: 25px;
+        margin-bottom: 30px;
+
+}
+.title_pro > h2 > span{
+    color: #9C9893;
+
 }
 .box-about-own > h4{
 font-style: normal;
@@ -2973,9 +2983,10 @@ color: #FFFFFF;
     height:100%;
 }
 .own-contact{
-    display: flex;
+      display: flex;
     align-items: center;
-    margin-top: 23px;
+    margin-top: 12px;
+    padding: 0 10px;
 }
 .own-contact > div{
     font-family: 'Mulish', sans-serif;
