@@ -2297,8 +2297,20 @@ color: #FFFFFF;
 .all-rnt{
     padding: 7px;
     margin-top: 30px;
+    
 }
 .compare-content{
     display: flex;
-
+    justify-content: space-between;
+    
+}
+.upload-box{
+    font-family: 'Mulish', sans-serif;
+    width: 217px;
+    height: 217px;
+    background: gray;
+    margin: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

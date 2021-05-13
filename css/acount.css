@@ -140,7 +140,7 @@ body{
     height: 100%;
 }
 .main_user_info_img_edit{
-    background: url("../images/user_icon_img_edit_bg.png") no-repeat;
+    background: url("../img/user_icon_img_edit_bg.png") no-repeat;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -250,7 +250,7 @@ body{
     width: 100%;
     height: 100%;
 }
-.main_user_item_1_input_1 #name, .main_user_item_1_input_2 #email{
+.main_user_item_1_input_1 .name, .main_user_item_1_input_2 #email{
     font-family: 'Mulish', sans-serif;
     outline: none;
     border: none;
@@ -385,7 +385,7 @@ body{
 
 @media (max-width: 891px) {
  
-    .main_user_item_1_input_1 #name, .main_user_item_1_input_2 #email {
+    .main_user_item_1_input_1 .name, .main_user_item_1_input_2 #email {
         font-family: 'Mulish', sans-serif;
         outline: none;
         border: none;
@@ -475,7 +475,7 @@ body{
     .main_user_item_1_input_1, .main_user_item_1_input_2 {
         padding: 8px 0px;
     }
-    .main_user_item_1_input_1 #name, .main_user_item_1_input_2 #email {
+    .main_user_item_1_input_1 .name, .main_user_item_1_input_2 #email {
         font-size: 15px;   
     }
     .main_user_item_2_input {
@@ -529,7 +529,7 @@ body{
     .main_user_item_1_input_1, .main_user_item_1_input_2 {
         padding: 4px 0px;
     }
-    .main_user_item_1_input_1 #name, .main_user_item_1_input_2 #email {
+    .main_user_item_1_input_1 l.name, .main_user_item_1_input_2 #email {
         font-size: 10px;
     }
     .main_user_item_1_input_2_logo {
