@@ -154,7 +154,12 @@ body{
     cursor: pointer;
     visibility: hidden;
 }
-.main_user_info_img_edit img{
+.main_user_info_img_edit> input
+{
+    display: none;
+}
+
+.main_user_info_img_edit > label img{
     width: 18px;
     height: 18px;
 }
