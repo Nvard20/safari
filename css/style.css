@@ -410,6 +410,8 @@ text-align: center;
 .car-link > img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
+
 }
     .cars-container {
         max-width: 1074px;
@@ -3006,13 +3008,15 @@ color: #FFFFFF;
 }
 .sec-car-about{
     background: #282828;
-    max-width: 300px;
+    width: 312px;
     height: 218px;
+    width: 320px;
 
 }
 .section-cars{
     display: flex;
     align-items: center;
+    margin: 30px 0px;
 
 }
 .in_tx_t{
@@ -3020,11 +3024,124 @@ color: #FFFFFF;
 
 }
 .in_tx_t > h2{
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: bold;
     margin-bottom: 8px;
 
+}
+.in_tx_t > p{
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #86837F;
+}
+.rt-number{
+    width: 20px;
+    margin-left: 0px;
+    margin-top: 20px;
+
+}
+.sec-numbs{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;    
+    color: #FFFFFF;
+    margin-top: 53px;
+
+}
+.section-cars > .car-box{
+    margin: 7px 0px;
+    max-width: 360px;
+    height: 218.33px;
+    width: 100%;
+}
+.own-slider{
+    max-width: 360px;
+    margin-right: -9px !important;
+    margin-left: 0px !important;
+
+}
+.own-page{
+    width: 100%;
+    bottom: 0px;
+}
+@media (max-width: 1000px){
+    .hd-owner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .owner-content {
+        margin-bottom: 45px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 33px;
+    }
+    .sec-car-about{
+        display: none;
+    }
+    .section-cars {
+        display: flex;
+        align-items: center;
+        margin: 30px 0px;
+        justify-content: center;
+    }
+    .section-n > .car-box{
+       
+            max-width: unset;
+     
+    }
+    .owner-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .own-2 {
+        margin-top: 12px;
+    }
+    .title_pro > h2 {
+       
+        font-size: 22px;
+     
+        margin-top: 11px;
+    }
+}
+@media (max-width:600px){
+    .owner-content{
+        overflow: hidden;
+    }
+    .tl{
+        justify-content: center;
+
+    }
+    .section-n > .car-box > .car-link {
+       
+          
+            width: 97%;
+         
+     
+    }
+    .us_rv_content {
+     
+        padding: 23px 10px;    
+}
+.add_to{
+    margin: 0 12px;
+
+}
+.left-content {
+    max-width: 333px;
+    margin: 0 20px;
+}
 }

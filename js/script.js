@@ -202,3 +202,14 @@ $(document).on('click', '.auto_btn_2', function() {
   
 });
 
+var mySwiper = new Swiper ('.own-slider', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  autoplay:false,
+  parallax: true,
+  pagination: {
+      el: ".own-page",
+    
+    },
+});
