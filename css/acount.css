@@ -1030,3 +1030,131 @@ color: #E5E5E5;
 }    
 
 }
+.message-content{
+    background: #282828;
+    border-radius: 4px;
+  
+    display: flex;
+}
+.mes-item{
+    margin-bottom: 28px;
+    list-style: none;
+
+}
+.left_aside_bar{
+    max-width: 300px;
+    border-right: 2px solid #404140;
+}
+.nm_inf_er_p > h2{
+    font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+font-family: 'Mulish', sans-serif;
+
+}
+.nm_inf_er_p > div{
+    
+background: #404140;
+border-radius: 4px;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+font-family: 'Mulish', sans-serif;
+padding: 10px 15px;
+
+
+color: #FFFFFF;
+
+}
+.nm_inf_er_p{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 2px solid #404140;
+
+}
+.right_aside_bar{
+    max-width: 800px;
+    width: 100%;
+    padding: 20px 31px;
+}
+.left_aside_bar > ul{
+    padding: 20px 8px;
+
+}
+.send-sms{
+    background: #F9CA0D;
+border-radius: 4px 4px 0px 4px;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+font-family: 'Mulish', sans-serif;
+
+text-align: center;
+
+color: #282828;
+max-width: 404px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+
+}
+.sms-box{
+    display: flex;
+    justify-content: flex-end;
+}
+.sms-box-2 > .send-sms{
+    background: #404140;
+    border-radius: 4px 4px 4px 0px;
+    color: #E5E5E5;
+
+}
+.sms-box-2{
+    justify-content: flex-start;
+
+}
+.sms-input{
+    background: transparent;
+    border: 2px solid #404140;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 12px;
+    width: 95%;
+    color: white;
+}
+.myform{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.snd-btn{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.div-form-mess{
+    margin-top: 329px;
+
+}
+@media (max-width:767px){
+    .nm_inf_er_p {
+       
+        flex-direction: column;
+    }
+    .nm_inf_er_p > div {
+       
+        margin-top: 12px;
+    }
+    .sms-input {
+      width: 80%;
+    }
+    .right_aside_bar{
+        padding: 20px 2px;
+
+    }
+}
