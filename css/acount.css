@@ -1158,3 +1158,12 @@ max-width: 404px;
 
     }
 }
+@media (max-width: 600px){
+    .message-content {
+        background: #282828;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
