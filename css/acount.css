@@ -932,6 +932,8 @@ color: #FFFFFF;
     list-style: none;
     background: #282828;
     transition: .5s;
+    text-decoration: none;
+
 }
 .row:hover{
     background: #2F2F2F;

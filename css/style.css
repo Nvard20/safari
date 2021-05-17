@@ -357,7 +357,8 @@ text-align: center;
     width: 100%;
     overflow-x: scroll;
     padding-bottom: 30px;
-
+    scrollbar-width: thin;
+    scrollbar-color: #F9CA0D  #262928;
 }
 .cat-contents::-webkit-scrollbar {
     display: block;
@@ -407,8 +408,9 @@ text-align: center;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(27, 27, 27, 0) 54.69%, rgba(40, 40, 40, 0.72) 76.56%, #404140 100%);
     content: '';
     right: 0;
-
+    top: 0;
 }
+
 .car-link > img{
     width: 100%;
     height: 100%;
@@ -634,10 +636,10 @@ height: 87px;
 .pr-img > img{
     width: 100%;
 }
-.rev-nmss{
-    top: 310px;
+    .rev-nmss {
+        top: 140px;
+    }
 
-}
 .projects{
     margin-top: 30px;
     display: -webkit-box;
