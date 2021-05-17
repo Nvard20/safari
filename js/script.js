@@ -86,12 +86,17 @@ var mySwiper = new Swiper ('.slider-main', {
   
   });
 
-  $( ".burg" ).click(function() {
-    
-    $( ".opened" ).slideToggle( "1000", function() {
-      
-    });
+  $( ".burg img" ).click(function() {
+	var src = ($(this).attr('src') === 'img/burg.png')
+				? 'img/delete.png'
+				: 'img/burg.png';
+			 $(this).attr('src', src);
+
+		$( ".opened" ).slideToggle( "1000", function() {
+
+		});
   });
+ 
 
 
 
@@ -213,3 +218,4 @@ var mySwiper = new Swiper ('.own-slider', {
     
     },
 });
+
