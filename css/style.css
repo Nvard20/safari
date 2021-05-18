@@ -3148,6 +3148,10 @@ color: #86837F;
     max-width: 333px;
     margin: 0 20px;
 }
+.st_stars {
+    background: #282828;
+    border-radius: 13px;
+    padding: 0 3px;}
 }
 @media (max-width: 1440px){
 	.category-tipes{
