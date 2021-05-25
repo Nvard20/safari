@@ -339,7 +339,7 @@ text-align: center;
 
 }
 .cat-img{
-    width: 176px;
+    width: 182px;
     height: 66px;
     margin: auto;
     padding-top: 66px;
@@ -492,15 +492,12 @@ color: #1E201F;
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 90%;
-    opacity: 0;
     -webkit-transition: all .1s ease-in-out;
     -o-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
 }
 
-.car-link:hover .title-name{
-    opacity: 1;
-}
+
 .names > h2{
     font-family: 'Mulish', sans-serif;
     color: #FFFFFF;
@@ -591,7 +588,7 @@ color: #FFFFFF;
 
 }
 .project-box{
-    max-width: 344px;
+    max-width: 303px;
     height: 431px;
     background: #282828;
     padding: 0 20px;
@@ -670,7 +667,7 @@ height: 87px;
             align-items: center;
     letter-spacing: 0.2px;
     color: #FFFFFF;
-    bottom: 30px;
+    bottom: 16.7px;
   
     font-family: 'Mulish', sans-serif;
     padding: 0 6px;
@@ -855,16 +852,21 @@ height: 87px;
   
     .slide-text > h1{
         font-size: 24px;
-        line-height: 30px;
+    line-height: 30px;
     text-align: left;
-    padding-left: 7px;
-        padding-right: 7px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 31px;
+    padding-bottom: 15px;
+	    max-width: 61%;
+
     }
-    .slide-text > h2{
-        font-size: 18px;
-        text-align: left;
-        padding-left: 7px;
-        padding-right: 7px;
+      .slide-text > h2 {
+    font-size: 18px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 7px;
+
     }
     .slide-img {
         height: 230px;
@@ -912,12 +914,13 @@ height: 87px;
 @media (max-width: 600px){
     .slide-img {
            
-        height: 200px !important;
+    height: 372px !important;
     }   
 }
 .reviews-container{
-    background: #1E201F;
-}
+background: #252827b0;
+    margin-bottom: 60px;
+	}
 .revwes > h2{
     font-family: 'Mulish', sans-serif;
     font-style: normal;
@@ -1066,7 +1069,7 @@ transition: .1s;
     max-width: 335px;
 height: 450px;
 position: relative;
-padding: 0 10px;
+margin: 0 10px;
 
 }
 .magazine-box > img{
@@ -1108,14 +1111,12 @@ padding: 0 10px;
     bottom: 0;
     padding:  28px;
     z-index: 9999;    
-    opacity: 0;
+    opacity: 1;
     -webkit-transition: .2s ease-in;
     -o-transition: .2s ease-in;
     transition: .2s ease-in;
 }
-.magazine-box:hover .inner-info{
-opacity: 1;
-}
+
 .inner-info > a{
     font-style: normal;
     font-weight: bold;
@@ -1299,7 +1300,7 @@ footer{
             -ms-flex-order: 3;
                 order: 3;
         border-right: 1px solid gray;
-        padding: 10px;
+    padding: 20px;
                 max-width: 150px;
     }
   
@@ -1322,6 +1323,7 @@ footer{
             -ms-flex-order: 1;
                 order: 1;
         max-width: 150px;
+    padding: 14px;
 
     }
 }
