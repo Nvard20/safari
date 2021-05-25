@@ -497,7 +497,9 @@ color: #1E201F;
     transition: all .1s ease-in-out;
 }
 
-
+.slider-mobs{
+	display:none
+}
 .names > h2{
     font-family: 'Mulish', sans-serif;
     color: #FFFFFF;
@@ -3085,6 +3087,12 @@ color: #86837F;
     bottom: 0px;
 }
 @media (max-width: 1000px){
+	.slider-desktop{
+		display:none;
+	}
+	.slider-mobs{
+		display:block;
+	}
     .hd-owner {
         display: flex;
         align-items: center;
