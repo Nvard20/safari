@@ -2843,7 +2843,7 @@ color: #FFFFFF;
 }
 .delete{
 	position: absolute;
-    right: 30px;
+    right: 10px;
     top: 16px;
     cursor: pointer;
 }
