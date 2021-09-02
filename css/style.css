@@ -998,6 +998,8 @@ padding-bottom: 90px;
     max-width: 1062px;
     margin: auto;
     margin-top: 25px;
+    overflow: hidden !important;
+
 }
 .prev-rev > img,.next-rev > img{
     background: #404140 !important;
