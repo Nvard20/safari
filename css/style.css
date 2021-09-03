@@ -3199,3 +3199,6 @@ color: #86837F;
     width: 10px;
     padding: 3px;
 }
+.swiper-container{
+	overflow: hidden;
+}
