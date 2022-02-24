@@ -3203,3 +3203,8 @@ color: #86837F;
 .swiper-container{
 	overflow: hidden;
 }
+@media (max-width:1000px){
+	.magazine-slider > .swiper-pagination {
+		display:none;
+	}
+}
